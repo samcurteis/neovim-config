@@ -1,1 +1,8 @@
-site/pack/packer/start/markdown-preview.nvim
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data

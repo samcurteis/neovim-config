@@ -1,6 +1,3 @@
-require("sam")
-vim.opt.termguicolors = false
-vim.g.mapleader = " "
-
-vim.api.nvim_set_keymap('i', 'jk', '<ESC>', { noremap = true })
-
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
+require("dap-python").setup("~/.virtualenvs/debugpy/bin/python")
